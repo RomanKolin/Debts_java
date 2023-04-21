@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.ComboBox?>
+<FlowPane id="FlowPane1" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.debts.Debts" orientation="VERTICAL" prefWidth="800" prefHeight="470">
+  <padding>
+    <Insets bottom="5" left="5" right="5" top="5"/>
+  </padding>
+  <HBox id="HBox1">
+    <VBox id="VBox1">
+      <HBox id="HBox2">
+        <VBox id="VBox2">
+          <Button fx:id="button1преподаватели" text="Преподаватели" prefWidth="150" prefHeight="25" style="-fx-background-color: #808080; -fx-font-family: Times New Roman; -fx-font-style: italic; -fx-font-size: 14; -fx-text-fill: #FFFFFF" onAction="#button1преподаватели"/>
+          <Button fx:id="button2группы" text="Группы" prefWidth="150" prefHeight="25" style="-fx-background-color: #808080; -fx-font-family: Times New Roman; -fx-font-style: italic; -fx-font-size: 14; -fx-text-fill: #FFFFFF" onAction="#button2группы"/>
+          <Button fx:id="button3студенты" text="Студенты" prefWidth="150" prefHeight="25" style="-fx-background-color: #808080; -fx-font-family: Times New Roman; -fx-font-style: italic; -fx-font-size: 14; -fx-text-fill: #FFFFFF" onAction="#button3студенты"/>
+        </VBox>
+        <VBox id="VBox3">
+          <HBox id="3">
+            <Button fx:id="button4предметы" text="Предметы" prefWidth="150" prefHeight="25" style="-fx-background-color: #808080; -fx-font-family: Times New Roman; -fx-font-style: italic; -fx-font-size: 14; -fx-text-fill: #FFFFFF" onAction="#button4предметы"/>
+          </HBox>
+          <Button fx:id="button5заданияидолги" text="Задания и долги" prefWidth="150" prefHeight="25" style="-fx-background-color: #808080; -fx-font-family: Times New Roman; -fx-font-style: italic; -fx-font-size: 14; -fx-text-fill: #FFFFFF" onAction="#button5заданияидолги"/>
+          <HBox id="HBox3">
+            <padding>
+              <Insets left="5" top="10"/>
+            </padding>
+          </HBox>
+          <HBox id="HBox4">
+            <padding>
+              <Insets bottom="5" left="5"/>
+            </padding>
+          </HBox>
+        </VBox>
+      </HBox>
+    </VBox>
+    <VBox id="VBox4">
+      <padding>
+        <Insets bottom="5" left="15"/>
+      </padding>
+      <StackPane id="StackPane1">
+        <Label id="label1change" prefWidth="675" prefHeight="220" style="-fx-background-color: #FFFFFF"/>
+        <VBox id="VBox5">
+          <HBox id="HBox5">
+            <Label fx:id="label2change" alignment="CENTER" prefWidth="675" prefHeight="20" style="-fx-font-family: Times New Roman; -fx-font-size: 14; -fx-text-fill: #000000"/>
+          </HBox>
+          <HBox id="HBox6">
+            <Label fx:id="label3change" prefWidth="150" prefHeight="25" visible="false" style="-fx-font-family: Times New Roman; -fx-font-size: 12; -fx-text-fill: #000000"/>
+            <TextField fx:id="textfield1change" prefWidth="525" prefHeight="25" visible="false" editable="false" style="-fx-focus-color: #BBBBBB; -fx-faint-focus-color: transparent; -fx-highlight-fill: #BBBBBB; -fx-font-family: Times New Roman; -fx-font-style: italic; -fx-font-size: 12; -fx-text-fill: #000000"/>
+          </HBox>
+          <HBox id="HBox7">
+            <Label fx:id="label4change" prefWidth="150" prefHeight="25" visible="false" style="-fx-font-family: Times New Roman; -fx-font-size: 12; -fx-text-fill: #000000"/>
+            <TextField fx:id="textfield2change" prefWidth="525" prefHeight="25" visible="false" editable="false" style="-fx-focus-color: #BBBBBB; -fx-faint-focus-color: transparent; -fx-highlight-fill: #BBBBBB; -fx-font-family: Times New Roman; -fx-font-style: italic; -fx-font-size: 12; -fx-text-fill: #000000"/>
+          </HBox>
+          <HBox id="HBox8">
+            <Label fx:id="label5change" prefWidth="150" prefHeight="25" visible="false" style="-fx-font-family: Times New Roman; -fx-font-size: 12; -fx-text-fill: #000000"/>
+            <TextField fx:id="textfield3change" prefWidth="525" prefHeight="25" visible="false" editable="false" style="-fx-focus-color: #BBBBBB; -fx-faint-focus-color: transparent; -fx-highlight-fill: #BBBBBB; -fx-font-family: Times New Roman; -fx-font-style: italic; -fx-font-size: 12; -fx-text-fill: #000000"/>
+          </HBox>
+          <HBox id="HBox9">
+            <Label fx:id="label6change" prefWidth="150" prefHeight="25" visible="false" style="-fx-font-family: Times New Roman; -fx-font-size: 12; -fx-text-fill: #000000"/>
+            <TextField fx:id="textfield4change" prefWidth="525" prefHeight="25" visible="false" editable="false" style="-fx-focus-color: #BBBBBB; -fx-faint-focus-color: transparent; -fx-highlight-fill: #BBBBBB; -fx-font-family: Times New Roman; -fx-font-style: italic; -fx-font-size: 12; -fx-text-fill: #000000"/>
+          </HBox>
+          <HBox id="HBox10">
+            <Label fx:id="label7change" prefWidth="150" prefHeight="25" visible="false" style="-fx-font-family: Times New Roman; -fx-font-size: 12; -fx-text-fill: #000000"/>
+            <TextField fx:id="textfield5change" prefWidth="525" prefHeight="25" visible="false" editable="false" style="-fx-focus-color: #BBBBBB; -fx-faint-focus-color: transparent; -fx-highlight-fill: #BBBBBB; -fx-font-family: Times New Roman; -fx-font-style: italic; -fx-font-size: 12; -fx-text-fill: #000000"/>
+          </HBox>
+          <HBox id="HBox11">
+            <Label fx:id="label8change" prefWidth="150" prefHeight="25" visible="false" style="-fx-font-family: Times New Roman; -fx-font-size: 12; -fx-text-fill: #000000"/>
+            <TextField fx:id="textfield6change" prefWidth="525" prefHeight="25" visible="false" editable="false" style="-fx-focus-color: #BBBBBB; -fx-faint-focus-color: transparent; -fx-highlight-fill: #BBBBBB; -fx-font-family: Times New Roman; -fx-font-style: italic; -fx-font-size: 12; -fx-text-fill: #000000"/>
+          </HBox>
+          <HBox id="HBox12">
+            <Label fx:id="label9change" prefWidth="150" prefHeight="25" visible="false" style="-fx-font-family: Times New Roman; -fx-font-size: 12; -fx-text-fill: #000000"/>
+            <TextField fx:id="textfield7change" prefWidth="525" prefHeight="25" visible="false" editable="false" style="-fx-focus-color: #BBBBBB; -fx-faint-focus-color: transparent; -fx-highlight-fill: #BBBBBB; -fx-font-family: Times New Roman; -fx-font-style: italic; -fx-font-size: 12; -fx-text-fill: #000000"/>
+          </HBox>
+          <HBox id="HBox13">
+            <Label fx:id="label10change" prefWidth="150" prefHeight="25" visible="false" style="-fx-font-family: Times New Roman; -fx-font-size: 12; -fx-text-fill: #000000"/>
+            <TextField fx:id="textfield8change" prefWidth="525" prefHeight="25" visible="false" editable="false" style="-fx-focus-color: #BBBBBB; -fx-faint-focus-color: transparent; -fx-highlight-fill: #BBBBBB; -fx-font-family: Times New Roman; -fx-font-style: italic; -fx-font-size: 12; -fx-text-fill: #000000"/>
+          </HBox>
+        </VBox>
+      </StackPane>
+      <HBox id="HBox14" alignment="CENTER_RIGHT">
+        <Button fx:id="button6добавить" text="Добавить" prefWidth="100" prefHeight="15" visible="false" style="-fx-background-color: #808080; -fx-font-family: Times New Roman; -fx-font-style: italic; -fx-font-size: 14; -fx-text-fill: #FFFFFF" onAction="#button6добавить"/>
+        <Button fx:id="button7удалить" text="Удалить" prefWidth="85" prefHeight="15" visible="false" style="-fx-background-color: #808080; -fx-font-family: Times New Roman; -fx-font-style: italic; -fx-font-size: 14; -fx-text-fill: #FFFFFF" onAction="#button7удалить"/>
+      </HBox>
+    </VBox>
+  </HBox>
+  <HBox id="HBox15">
+    <ComboBox fx:id="combobox1предмет" prefWidth="465" prefHeight="25" visible="false" style="-fx-focus-color: #BBBBBB; -fx-faint-focus-color: transparent; -fx-font-family: Times New Roman; -fx-font-size: 12" stylesheets="/ComboBox.css"/>
+    <ComboBox fx:id="combobox2группа" prefWidth="70" prefHeight="25" visible="false" style="-fx-focus-color: #BBBBBB; -fx-faint-focus-color: transparent; -fx-font-family: Times New Roman; -fx-font-size: 12" stylesheets="/ComboBox.css"/>
+  </HBox>
+  <TableView fx:id="tableview1audiolibrary" prefWidth="950" prefHeight="150" style="-fx-focus-color: #BBBBBB; -fx-faint-focus-color: transparent; -fx-font-family: Times New Roman; -fx-font-size: 12; -fx-text-fill: #000000" stylesheets="/TableView.css"/>
+  <HBox id="HBox16">
+    <TextField fx:id="textfield9search" prefWidth="150" prefHeight="25" style="-fx-focus-color: #BBBBBB; -fx-faint-focus-color: transparent; -fx-highlight-fill: #BBBBBB; -fx-font-family: Times New Roman; -fx-font-style: italic; -fx-font-size: 12; -fx-text-fill: #000000"/>
+    <HBox id="HBox17" alignment="CENTER_RIGHT" prefWidth="840">
+      <Label fx:id="label11numberof" style="-fx-font-family: Times New Roman; -fx-font-size: 14; -fx-text-fill: #000000"/>
+    </HBox>
+  </HBox>
+</FlowPane>
